@@ -23,7 +23,7 @@ The project uses publicly available MRI datasets for training and validation. En
 ## Installation
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/Brain-Tumor-Segmentation.git
+git clone https://github.com/Reranko05/Brain-Tumor-Segmentation.git
 cd Brain-Tumor-Segmentation
 
 # Install dependencies
