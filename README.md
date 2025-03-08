@@ -1,7 +1,7 @@
 # Brain Tumor Segmentation using 3D U-Net
 
 ## Overview
-This project implements a deep learning-based brain tumor segmentation model using a 3D U-Net architecture. The model processes MRI scans to classify and segment tumor regions, aiding in medical image analysis.
+This project implements a deep learning-based brain tumor segmentation model using a 3D U-Net architecture. The model processes MRI scans to classify and segment tumor regions, aiding in medical image analysis. The implementation is provided in a Jupyter Notebook (`TumorSegment001.ipynb`).
 
 ## Features
 - Preprocesses NIfTI medical imaging data
@@ -16,6 +16,7 @@ This project implements a deep learning-based brain tumor segmentation model usi
 - OpenCV, Nibabel
 - SciPy, Scikit-learn
 - Matplotlib
+- Jupyter Notebook
 
 ## Dataset
 The project uses publicly available MRI datasets for training and validation. Ensure the dataset is in NIfTI format (.nii) before processing.
@@ -31,19 +32,14 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+1. Open the Jupyter Notebook:
 ```sh
-# Run data preprocessing
-python preprocess.py
-
-# Train the model
-python train.py
-
-# Evaluate the model
-python evaluate.py
+jupyter notebook TumorSegment001.ipynb
 ```
+2. Run the cells sequentially to preprocess data, train the model, and evaluate performance.
 
 ## Results
-The model achieves high segmentation accuracy, effectively distinguishing tumor regions from MRI scans. 
+The model achieves high segmentation accuracy, effectively distinguishing tumor regions from MRI scans. Sample visualizations are provided in the `results/` directory.
 
 ## Contributions
 Feel free to contribute by improving the model, adding more datasets, or optimizing performance. Fork the repository and submit a pull request.
@@ -52,4 +48,4 @@ Feel free to contribute by improving the model, adding more datasets, or optimiz
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-For queries, reach out via email - aadityasri03@gmail.com or connect on LinkedIn - www.linkedin.com/in/aaditya-srinivasan-0b6902288.
+For queries, reach out via [your email] or connect on [LinkedIn/GitHub].
