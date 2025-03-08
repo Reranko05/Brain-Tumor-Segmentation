@@ -52,4 +52,4 @@ Feel free to contribute by improving the model, adding more datasets, or optimiz
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-For queries, reach out via [your email] or connect on [LinkedIn/GitHub].
+For queries, reach out via email - aadityasri03@gmail.com or connect on LinkedIn - www.linkedin.com/in/aaditya-srinivasan-0b6902288.
