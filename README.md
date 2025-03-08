@@ -39,7 +39,7 @@ jupyter notebook TumorSegment001.ipynb
 2. Run the cells sequentially to preprocess data, train the model, and evaluate performance.
 
 ## Results
-The model achieves high segmentation accuracy, effectively distinguishing tumor regions from MRI scans. Sample visualizations are provided in the `results/` directory.
+The model achieves high segmentation accuracy, effectively distinguishing tumor regions from MRI scans. 
 
 ## Contributions
 Feel free to contribute by improving the model, adding more datasets, or optimizing performance. Fork the repository and submit a pull request.
