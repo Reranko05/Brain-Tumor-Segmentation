@@ -45,7 +45,7 @@ Note: Only the FLAIR and T1CE modalities are used in this project for input, and
    ```bash
    git clone https://github.com/Reranko05/Brain-Tumor-Segmentation.git
    cd Brain-Tumor-Segmentation
-  ```
+  
 2. Or download the Jupyter notebook directly from GitHub and open it manually in Jupyter Lab or Notebook.
 
 ## Usage
