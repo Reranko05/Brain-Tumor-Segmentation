@@ -44,8 +44,7 @@ The model achieves high segmentation accuracy, effectively distinguishing tumor 
 ## Contributions
 Feel free to contribute by improving the model, adding more datasets, or optimizing performance. Fork the repository and submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 For queries, reach out via [your email] or connect on [LinkedIn/GitHub].
+
+Note: This notebook contains the output from a successful run. Later code edits caused errors which I’m debugging — but this version showcases the working pipeline and predictions
