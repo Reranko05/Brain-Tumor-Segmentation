@@ -26,10 +26,8 @@ The project uses publicly available MRI datasets for training and validation. En
 # Clone the repository
 git clone https://github.com/Reranko05/Brain-Tumor-Segmentation.git
 cd Brain-Tumor-Segmentation
-
-# Install dependencies
-pip install -r requirements.txt
 ```
+or you can  just download the .ipynb Jupyter file.
 
 ## Usage
 1. Open the Jupyter Notebook:
