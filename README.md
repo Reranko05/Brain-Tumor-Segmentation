@@ -45,6 +45,6 @@ The model achieves high segmentation accuracy, effectively distinguishing tumor 
 Feel free to contribute by improving the model, adding more datasets, or optimizing performance. Fork the repository and submit a pull request.
 
 ## Contact
-For queries, reach out via [your email] or connect on [LinkedIn/GitHub].
+For queries, reach out via aadityasri03@gmail.com
 
 Note: This notebook contains the output from a successful run. Later code edits caused errors which I’m debugging — but this version showcases the working pipeline and predictions
