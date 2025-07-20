@@ -19,15 +19,34 @@ This project implements a deep learning-based brain tumor segmentation model usi
 - Jupyter Notebook
 
 ## Dataset
-The project uses publicly available MRI datasets for training and validation. Ensure the dataset is in NIfTI format (.nii) before processing.
+This project uses the BraTS 2020 (Brain Tumor Segmentation) dataset, a benchmark dataset provided by the Medical Image Computing and Computer Assisted Intervention (MICCAI) society.
+
+Key Details:
+
+Source: BraTS 2020 Challenge
+Format: All volumes are in NIfTI (.nii) format
+
+Modalities per case:
+T1-weighted (T1)
+T1-weighted post-contrast (T1CE)
+T2-weighted (T2)
+FLAIR
+
+Segmentation Labels:
+Label 0: Background
+Label 1: Necrotic and Non-Enhancing Tumor Core (NCR/NET)
+Label 2: Peritumoral Edema (ED)
+Label 3: Enhancing Tumor (ET)
+
+Note: Only the FLAIR and T1CE modalities are used in this project for input, and the segmentation mask is used as the ground truth.
 
 ## Installation
-```sh
-# Clone the repository
-git clone https://github.com/Reranko05/Brain-Tumor-Segmentation.git
-cd Brain-Tumor-Segmentation
-```
-or you can  just download the .ipynb Jupyter file.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Reranko05/Brain-Tumor-Segmentation.git
+   cd Brain-Tumor-Segmentation
+  ```
+2. Or download the Jupyter notebook directly from GitHub and open it manually in Jupyter Lab or Notebook.
 
 ## Usage
 1. Open the Jupyter Notebook:
@@ -35,6 +54,8 @@ or you can  just download the .ipynb Jupyter file.
 jupyter notebook TumorSegment001.ipynb
 ```
 2. Run the cells sequentially to preprocess data, train the model, and evaluate performance.
+
+Note: This notebook contains the output from a successful run. Later code edits caused errors which I’m debugging — but this version showcases the working pipeline and predictions
 
 ## Results
 The model achieves high segmentation accuracy, effectively distinguishing tumor regions from MRI scans. 
@@ -45,4 +66,4 @@ Feel free to contribute by improving the model, adding more datasets, or optimiz
 ## Contact
 For queries, reach out via aadityasri03@gmail.com
 
-Note: This notebook contains the output from a successful run. Later code edits caused errors which I’m debugging — but this version showcases the working pipeline and predictions
+
